@@ -1,0 +1,40 @@
+{
+  "name": "signup-hellobuild",
+  "version": "1.0.0",
+  "description": "Sing up single page app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "start:dev": "webpack serve ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "oauth",
+    "tailwind",
+    "local",
+    "storage"
+  ],
+  "author": "Julian Gil <gilsantosulian@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.2.0",
+    "standard": "^16.0.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.2.1"
+  }
+}
