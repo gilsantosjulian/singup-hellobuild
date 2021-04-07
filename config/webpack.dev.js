@@ -26,7 +26,6 @@ module.exports = merge(common, {
       path: './.env.development',
     }),
     new ReactRefreshWebpackPlugin(),
-    new ReactRefreshWebpackPlugin(),
   ].filter(Boolean),
 
 })
