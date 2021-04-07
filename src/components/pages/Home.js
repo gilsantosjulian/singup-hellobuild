@@ -5,7 +5,7 @@ import { RegisterSection } from '../organisms/RegisterSection'
 
 
 export const Home = () => (
-  <main>
+  <main className='main container mx-auto'>
     <Router>
       <LoginSection path='/' />
       <RegisterSection path='sign-up' />

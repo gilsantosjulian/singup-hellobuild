@@ -7,16 +7,22 @@ export const InputFormGroup = ({
   placeholder,
   text,
   type,
+  labelClass,
+  inputClass,
 }) => {
   return (
-    <>
-      <Label text={text}/>
+    <div>
+      <Label
+        text={text}
+        className={labelClass}
+      />
       <Input
         id={name}
         type={type}
+        className={inputClass}
         name={name}
         placeholder={placeholder}
       />
-    </>
+    </div>
   )
 }
