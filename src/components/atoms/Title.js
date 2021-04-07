@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Title = ({ text }) => {
+export const Title = ({ text, className }) => {
   return (
     <h2
-      className='title'
+      className={`title ${className}`}
     >
       {text}
     </h2>

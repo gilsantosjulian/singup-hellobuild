@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Label = ({ text }) => {
+export const Label = ({ text, className }) => {
   return (
     <label
-      className='label'
+      className={`label ${className}`}
     >
       {text}
     </label>
